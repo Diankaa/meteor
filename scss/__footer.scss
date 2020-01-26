@@ -1,0 +1,82 @@
+.footer{
+    background: #090e1d;
+    color: #8f95aa;
+    padding-top: 40px;
+    .footer-logo {
+        img {
+            height: 75px;
+            max-width: 166px;
+        }
+    }
+    .navbar {
+        justify-content: center;
+        padding: 40px 0;
+        font-size: 14px;
+        .nav-link {
+            color: #8f95aa;
+        }
+    }
+    .select-option {
+        background: transparent;
+        border: none;
+        color: #8f95aa;
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: 50px;
+        outline: none;
+    }
+    .mid-section {
+        padding: 80px 0px;
+        border-top: 1px solid #1f232f;
+        border-bottom: 1px solid #1f232f;
+        p, li {
+            font-size: 14px;
+        }
+        .icons {
+            margin-top: 10px;
+            color: #fff;
+            span{
+                padding: 12px 15px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                display: inline-block;
+            }
+            i {
+                height: 12px;
+                width: 13px;
+            }
+            .twitter{
+                background: #31aae2;
+            }
+            .fb{
+                background: #0b5fa6;
+            }
+            .ball{
+                background: #e11396;
+            }
+            .pint{
+                background: #f52450;
+            }
+            .inst{
+                background: #313131;
+            }
+        }
+    }
+    .copyright {
+        padding: 40px 0;
+        text-align: right;
+        .title, p {
+            font-size: 12px;
+            margin-bottom: 10px;
+            .meteor {
+                font-size: 16px;
+                text-decoration: underline;
+                color:  #f44336;
+            }
+        }
+        .list li {
+        font-size: 12px;
+        margin-left: 15px;
+      }
+    }
+}

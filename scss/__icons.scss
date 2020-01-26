@@ -1,0 +1,66 @@
+.icon-list {
+    padding: 10px 0;
+    text-align: center;
+    .social-icon {
+        flex: 1;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 25px 0 20px;
+        color: #fff;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        .icon {
+            width: 45px;
+            height: 45px;
+            margin: 0 auto;
+            padding: 12px 0 9px;
+            border-radius: 50%;
+        }
+        p {
+            margin: 0;
+        }
+        .value{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .typeOfValue{
+            font-size: 15px;
+        }
+        .fb{
+            background-color: #4f6aab;
+        }
+        .tw {
+            background-color: #59b8e7;
+        }
+        .yt {
+            background-color: #db352f;
+        }
+        .gp {
+            background-color: #e05e4d;
+        }
+        .vk {
+            background-color: #5e83ac;
+        }
+        .inst {
+            background-color: #964ec0;
+        }
+    }
+    .facebook {background-color:  #3b59a1;
+    }
+    .twitter {
+        background-color:  #46b0e4;
+    }
+    .googlePlus {
+        background-color:  #dd4c39;
+    }
+    .youtube {
+        background-color: #d71e17;
+    }
+    .vkontakte {
+        background-color:  #4c75a3;
+    }
+    .instagram {
+        background-color: #8a3ab9;
+    }
+}

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.main-news {
+    background-color: #f5f5f5;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+.youtube-video {
+    width: 100%;
+}
+
+@import '__fonts.scss';
+@import '__mixins.scss';
+@import '__header.scss';
+@import '__banner.scss';
+@import '__newsHeading.scss';
+@import '__newsCard.scss';
+@import '__newsPost.scss';
+@import '__icons.scss';
+@import '__popularPost.scss';
+@import '__posters.scss';
+@import '__footer.scss';
+@import '__media.scss';
+
+
+
+
+

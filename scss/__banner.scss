@@ -1,0 +1,72 @@
+.banner{
+    display: flex;
+    .banner-1 {
+        background-image: url('../img/woman-covered-her-right-face-with-pink-doughnut-2064662\ \(1\).jpg');
+        &::after {
+            content: '';
+            background: linear-gradient(to bottom , rgba(255,255,255,0) 30% , rgba(120,20,147,0.95) 100%);
+        }
+    }
+    .banner-2 {
+        background-image: url('../img/photography-of-a-woman-sitting-on-chair-1070030.jpg');
+        &::after {
+            content: '';
+            background: linear-gradient(to bottom , rgba(255,255,255,0) 30% , rgba(232, 236, 16, 0.95) 100%);
+        }
+    }
+    .banner-3 {
+        background-image: url('../img/woman-in-red-tube-top-holding-two-doughnuts-802933.jpg');
+        &::after {
+            content: '';
+            background: linear-gradient(to bottom , rgba(255,255,255,0) 30% , rgba(2,129,212,0.95) 100%);
+        }
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        height: 630px;
+        width: inherit;
+        padding: 0px;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.banner-text {
+    position: absolute;
+    top: 450px;
+    left: 25px;
+    color: #fff;
+    z-index: 10;
+    .banner-name {
+        font-family: "Droid Serif Regular";
+        font-size: 12px;
+        padding: 3px 5px;
+        background: #3b59a1;
+        margin: 0 10px 15px 0;
+    }
+    .banner-name__two {
+        background: #8a3ab9;
+    }
+    .banner-name__three {
+        background: #dd4c39;
+    }
+    .banner-view{
+            font-family: "Droid Serif Bold";
+            font-size: 12px;
+            color: #090e1d;
+    }
+    .banner-desc {
+        width: 90%;
+        font-family: "Droid Serif Bold";
+        font-size: 22px;
+    }
+}

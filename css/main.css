@@ -1,0 +1,938 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.main-news {
+  background-color: #f5f5f5;
+}
+
+.white-background {
+  background-color: #fff;
+}
+
+.youtube-video {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Droid Serif Regular";
+  src: url(../fonts/droidserif.woff2);
+}
+
+@font-face {
+  font-family: "Droid Serif Bold";
+  src: url(../fonts/droidserifbold.woff2);
+}
+
+.header-1 {
+  font-family: 'Nunito', sans-serif;
+  background-color: #1a0e36;
+}
+
+.header-1 ul {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.header-1 ul li {
+  font-size: 13px;
+  color: #767676;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header-1 .top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.header-1 .icon-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-1 .icon-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-1 .icon-nav ul li {
+  margin: 0 5px;
+}
+
+.header-1 .icon-nav .social-icon {
+  margin-right: 8%;
+}
+
+.header-2 .navbar .navbar-brand {
+  padding-bottom: 1.2rem;
+}
+
+.header-2 .navbar button {
+  outline: none;
+}
+
+.header-2 .navbar .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 13vh;
+  color: #000;
+  padding: 0 20px;
+}
+
+.header-2 .navbar .navbar-nav .nav-link:hover,
+.header-2 .navbar .navbar-nav .dropdown-item:hover {
+  background-color: #1a0e36;
+  color: #fff;
+}
+
+.header-2 .navbar .dropdown-menu {
+  padding: 0;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner .banner-1 {
+  background-image: url("../img/woman-covered-her-right-face-with-pink-doughnut-2064662 (1).jpg");
+}
+
+.banner .banner-1::after {
+  content: '';
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(255, 255, 255, 0)), to(rgba(120, 20, 147, 0.95)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgba(120, 20, 147, 0.95) 100%);
+}
+
+.banner .banner-2 {
+  background-image: url("../img/photography-of-a-woman-sitting-on-chair-1070030.jpg");
+}
+
+.banner .banner-2::after {
+  content: '';
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(255, 255, 255, 0)), to(rgba(232, 236, 16, 0.95)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgba(232, 236, 16, 0.95) 100%);
+}
+
+.banner .banner-3 {
+  background-image: url("../img/woman-in-red-tube-top-holding-two-doughnuts-802933.jpg");
+}
+
+.banner .banner-3::after {
+  content: '';
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(255, 255, 255, 0)), to(rgba(2, 129, 212, 0.95)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgba(2, 129, 212, 0.95) 100%);
+}
+
+.banner .banner-1,
+.banner .banner-2,
+.banner .banner-3 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 630px;
+  width: inherit;
+  padding: 0px;
+}
+
+.banner .banner-1::after,
+.banner .banner-2::after,
+.banner .banner-3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 450px;
+  left: 25px;
+  color: #fff;
+  z-index: 10;
+}
+
+.banner-text .banner-name {
+  font-family: "Droid Serif Regular";
+  font-size: 12px;
+  padding: 3px 5px;
+  background: #3b59a1;
+  margin: 0 10px 15px 0;
+}
+
+.banner-text .banner-name__two {
+  background: #8a3ab9;
+}
+
+.banner-text .banner-name__three {
+  background: #dd4c39;
+}
+
+.banner-text .banner-view {
+  font-family: "Droid Serif Bold";
+  font-size: 12px;
+  color: #090e1d;
+}
+
+.banner-text .banner-desc {
+  width: 90%;
+  font-family: "Droid Serif Bold";
+  font-size: 22px;
+}
+
+.news {
+  margin-bottom: 30px;
+}
+
+.news .news-heading .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-image-slice: 1;
+  margin-bottom: 24px;
+  padding-bottom: 2px;
+}
+
+.news .news-heading .heading h2 {
+  font-family: "Droid Serif Bold";
+  margin: 0;
+  margin-right: 50px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.news .news-heading .heading ul {
+  -ms-flex-preferred-size: 260px;
+      flex-basis: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.news .news-heading .heading ul li {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.news .news-heading .heading ul li:last-child {
+  margin-right: 0;
+}
+
+.style-hunter .news-heading .heading,
+.celebrity .news-heading .heading {
+  border-image-source: linear-gradient(to right, #79219a 30%, #13aee9 60%, #28e03f 100%);
+}
+
+.style-hunter .news-heading .heading h2,
+.celebrity .news-heading .heading h2 {
+  color: #8a3ab9;
+}
+
+.style-hunter .news-heading .heading ul li:hover,
+.celebrity .news-heading .heading ul li:hover {
+  color: #14ca82;
+}
+
+.life-style .news-heading .heading {
+  border-image-source: linear-gradient(to right, #f44337 30%, #d615e5 60%, #4128e0 100%);
+}
+
+.life-style .news-heading .heading h2 {
+  color: #f44336;
+}
+
+.life-style .news-heading .heading ul li:hover {
+  color: #f44336;
+}
+
+.videos .news-heading .heading {
+  border-image-source: linear-gradient(to right, #21399a 30%, #6f14ea 60%, #df28d5 100%);
+}
+
+.videos .news-heading .heading h2 {
+  color: #2737a0;
+}
+
+.videos .news-heading .heading ul li:hover {
+  color: #2737a0;
+}
+
+.news-heading .content {
+  margin-bottom: 30px;
+}
+
+.news-heading .content .image {
+  height: 280px;
+  background-size: cover !important;
+  margin-bottom: 30px;
+}
+
+.news-heading .content .tag {
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Droid Serif Regular";
+  color: white;
+  text-align: right;
+  padding: 2px 10px;
+  width: 90px;
+  margin-right: 10px;
+}
+
+.news-heading .content .views {
+  font-family: "Droid Serif Bold";
+  font-size: 12px;
+  color: #090e1d;
+}
+
+.news-heading .content .main-content {
+  padding: 0px 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.news-heading .content .main-content .title {
+  font-family: "Droid Serif Bold";
+  font-size: 22px;
+}
+
+.news-heading .content .main-content .time-of-post {
+  font-size: 12px;
+  color: #838793;
+  font-weight: 700;
+}
+
+.news-heading .content .main-content .desc {
+  font-size: 16px;
+  color: #090e1d;
+  font-weight: 600;
+}
+
+.style-hunter .news-heading .content .image {
+  background: url("../img/beautiful-eyewear-fashion-female-285171.jpg") center no-repeat;
+}
+
+.style-hunter .news-heading .content .tag {
+  background: #8a3ab9;
+}
+
+.style-hunter .news-heading .content .main-content .title {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #79219a), color-stop(60%, #13aee9), to(#28e03f));
+  background: linear-gradient(to right, #79219a 30%, #13aee9 60%, #28e03f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.life-style .news-heading .content .image {
+  background: url("../img/woman-wearing-black-sleeveless-dress-holding-white-headphone-1001850 (1).jpg") center no-repeat;
+}
+
+.life-style .news-heading .content .tag {
+  background: #f44336;
+}
+
+.life-style .news-heading .content .main-content .title {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #f44337), color-stop(60%, #d615e5), to(#4128e0));
+  background: linear-gradient(to right, #f44337 30%, #d615e5 60%, #4128e0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.videos .news-heading .content iframe {
+  margin-bottom: 30px;
+}
+
+.videos .news-heading .content .tag {
+  background: #f44336;
+}
+
+.videos .news-heading .content .main-content iframe {
+  margin-bottom: 30px;
+}
+
+.videos .news-heading .content .main-content .title {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #21399a), color-stop(60%, #6f14ea), to(#df28d5));
+  background: linear-gradient(to right, #21399a 30%, #6f14ea 60%, #df28d5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.news-card {
+  width: inherit;
+  margin-bottom: 20px;
+  padding: 20px 20px 10px;
+}
+
+.news-card .image {
+  background: url("../img/woman-in-blue-and-white-striped-top-raising-her-left-hand-1462637 (2).jpg") top no-repeat;
+  background-size: cover !important;
+  height: 180px;
+  width: inherit;
+  margin-bottom: 30px;
+}
+
+.news-card .image.stule-hunter-2 {
+  background: url("../img/woman-wearing-pink-collared-half-sleeved-top-1036623.jpg") top no-repeat;
+}
+
+.news-card .image.celebrity-1 {
+  background: url("../img/celebrity-big-2.jpg") top no-repeat;
+}
+
+.news-card .image.celebrity-2 {
+  background: url("../img/celebrity-big-1.jpg") center no-repeat;
+}
+
+.news-card .image.celebrity-3 {
+  background: url("../img/celebrity-big-3.jpg") right no-repeat;
+}
+
+.news-card .tag {
+  display: inline-block;
+  font-family: "Droid Serif Regular";
+  font-size: 12px;
+  background-color: #dd4c39;
+  color: #fff;
+  padding: 2px 10px;
+  width: 90px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.news-card .tag.two {
+  background-color: #14ca82;
+}
+
+.news-card .views {
+  font-family: "Droid Serif Bold";
+  font-size: 12px;
+  color: #090e1d;
+}
+
+.news-card .main-content {
+  padding: 15px 20px 20px 20px;
+}
+
+.news-card .main-content .title {
+  font-family: "Droid Serif Bold";
+  font-size: 18px;
+}
+
+.news-card .main-content .time-of-post {
+  font-size: 12px;
+  color: #838793;
+  font-weight: 700;
+}
+
+.news-card .main-content .desc {
+  font-size: 16px;
+  color: #090e1d;
+  font-weight: 600;
+}
+
+.news-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 10px;
+  height: 90px;
+}
+
+.news-post .image img {
+  width: 88px;
+  height: 88px;
+}
+
+.news-post .content {
+  padding: 0;
+  padding-left: 20px;
+}
+
+.news-post .content .desc {
+  font-family: "Droid Serif Bold";
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0px;
+}
+
+.news-post .content .post-time {
+  margin: 0px;
+  font-size: 10px;
+  color: #838793;
+  font-weight: 700;
+}
+
+.icon-list {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.icon-list .social-icon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 25px 0 20px;
+  color: #fff;
+}
+
+.icon-list .social-icon:last-of-type {
+  margin-right: 0;
+}
+
+.icon-list .social-icon .icon {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  padding: 12px 0 9px;
+  border-radius: 50%;
+}
+
+.icon-list .social-icon p {
+  margin: 0;
+}
+
+.icon-list .social-icon .value {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.icon-list .social-icon .typeOfValue {
+  font-size: 15px;
+}
+
+.icon-list .social-icon .fb {
+  background-color: #4f6aab;
+}
+
+.icon-list .social-icon .tw {
+  background-color: #59b8e7;
+}
+
+.icon-list .social-icon .yt {
+  background-color: #db352f;
+}
+
+.icon-list .social-icon .gp {
+  background-color: #e05e4d;
+}
+
+.icon-list .social-icon .vk {
+  background-color: #5e83ac;
+}
+
+.icon-list .social-icon .inst {
+  background-color: #964ec0;
+}
+
+.icon-list .facebook {
+  background-color: #3b59a1;
+}
+
+.icon-list .twitter {
+  background-color: #46b0e4;
+}
+
+.icon-list .googlePlus {
+  background-color: #dd4c39;
+}
+
+.icon-list .youtube {
+  background-color: #d71e17;
+}
+
+.icon-list .vkontakte {
+  background-color: #4c75a3;
+}
+
+.icon-list .instagram {
+  background-color: #8a3ab9;
+}
+
+.popular-post {
+  padding: 20px 0;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.popular-post .heading {
+  font-family: "Droid Serif Bold";
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.popular-post .popular-post__image {
+  position: relative;
+  background: url("../img/popular-post.jpg") center no-repeat;
+  background-size: cover;
+  height: 230px;
+  margin-bottom: 30px;
+}
+
+.popular-post .popular-post__image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(255, 255, 255, 0)), to(rgba(223, 130, 23, 0.95)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgba(223, 130, 23, 0.95) 100%);
+}
+
+.popular-post .image-content {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  color: #fff;
+  z-index: 10;
+}
+
+.popular-post .image-content .name {
+  font-family: "Droid Serif Regular";
+  font-size: 10px;
+  padding: 4px 10px;
+  background-color: #8a3ab9;
+}
+
+.popular-post .image-content .view {
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.popular-post .image-content .desc {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font: 16px "Droid Serif Bold";
+  line-height: 26px;
+}
+
+.popular-post .image-content .time {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.posters {
+  margin-top: 40px;
+}
+
+.posters .poster {
+  position: relative;
+  height: 430px;
+  padding: 20px;
+  background-size: cover !important;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.posters .poster-1,
+.posters .poster-4 {
+  background: url("../img/poster-1.jpg") center no-repeat;
+}
+
+.posters .poster-1 .title,
+.posters .poster-4 .title {
+  font-family: "Droid Serif Regular";
+  font-style: italic;
+  font-size: 44px;
+  margin-top: 30px;
+}
+
+.posters .poster-1 .desc,
+.posters .poster-4 .desc {
+  font-size: 18px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.posters .poster-2,
+.posters .poster-3 {
+  background: url("../img/poster-2.jpg") center no-repeat;
+}
+
+.posters .poster-2 .content,
+.posters .poster-3 .content {
+  position: absolute;
+  bottom: 30px;
+}
+
+.posters .poster-2 .content img,
+.posters .poster-3 .content img {
+  width: 74px;
+  height: 67px;
+}
+
+.posters .poster-2 .content .title,
+.posters .poster-3 .content .title {
+  font-family: "Amethysta";
+  font-style: italic;
+  font-size: 44px;
+  margin: 10px 0;
+}
+
+.posters .poster-3 {
+  background: url("../img/poster-3.jpg") center no-repeat;
+}
+
+.posters .poster-3 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.3;
+}
+
+.posters .poster-4 {
+  background: url("../img/poster-4.jpg") center no-repeat;
+  color: #000;
+  font-weight: 700;
+}
+
+.posters .poster-4 .title {
+  font-family: "Droid Serif Bold";
+}
+
+.posters .poster-5 {
+  background: url("../img/poster-5.jpg") center no-repeat;
+}
+
+.footer {
+  background: #090e1d;
+  color: #8f95aa;
+  padding-top: 40px;
+}
+
+.footer .footer-logo img {
+  height: 75px;
+  max-width: 166px;
+}
+
+.footer .navbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.footer .navbar .nav-link {
+  color: #8f95aa;
+}
+
+.footer .select-option {
+  background: transparent;
+  border: none;
+  color: #8f95aa;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 50px;
+  outline: none;
+}
+
+.footer .mid-section {
+  padding: 80px 0px;
+  border-top: 1px solid #1f232f;
+  border-bottom: 1px solid #1f232f;
+}
+
+.footer .mid-section p, .footer .mid-section li {
+  font-size: 14px;
+}
+
+.footer .mid-section .icons {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.footer .mid-section .icons span {
+  padding: 12px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer .mid-section .icons i {
+  height: 12px;
+  width: 13px;
+  cursor: pointer;
+}
+
+.footer .mid-section .icons .twitter {
+  background: #31aae2;
+}
+
+.footer .mid-section .icons .fb {
+  background: #0b5fa6;
+}
+
+.footer .mid-section .icons .ball {
+  background: #e11396;
+}
+
+.footer .mid-section .icons .pint {
+  background: #f52450;
+}
+
+.footer .mid-section .icons .inst {
+  background: #313131;
+}
+
+.footer .copyright {
+  padding: 40px 0;
+  text-align: right;
+}
+
+.footer .copyright .title, .footer .copyright p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.footer .copyright .title .meteor, .footer .copyright p .meteor {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #f44336;
+}
+
+.footer .copyright .list li {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .icon-list .social-icon .value {
+    font-size: 14px;
+  }
+  .icon-list .social-icon .typeOfValue {
+    font-size: 11px;
+  }
+  .posters h1 {
+    font-size: 35px !important;
+  }
+  .footer .footer-logo {
+    display: block;
+    text-align: center;
+  }
+  .footer .footer-logo img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .news-post {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 10px;
+    height: 100px;
+  }
+  .icon-list {
+    max-width: 350px;
+    margin: auto;
+  }
+  .popular-post .popular-post__image {
+    height: 280px;
+  }
+  .posters {
+    display: none;
+  }
+  .footer .copyright {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .news-card .image {
+    height: 280px;
+  }
+  .footer .mid-section p, .footer .mid-section li {
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

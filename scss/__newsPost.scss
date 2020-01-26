@@ -1,0 +1,25 @@
+.news-post {
+    @include flex-display(space-between,flex-start);
+    margin-bottom: 10px;
+    height: 90px;
+    .image img {
+        width: 88px;
+        height: 88px;
+    }
+    .content {
+        padding: 0;
+        padding-left: 20px;
+        .desc {
+            font-family: "Droid Serif Bold";
+            font-size: 13px;
+            line-height: 20px;
+            margin: 0px;
+        }
+        .post-time{
+            margin: 0px;
+            font-size: 10px;
+            color: #838793;
+            font-weight: 700;
+        }
+    }
+}
